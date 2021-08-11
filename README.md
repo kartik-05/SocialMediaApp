@@ -1,3 +1,37 @@
+<h1 align="center">Social Medina App</h1>
+
+## Screenshots
+
+![](src/components/images/socialMediaAppGIF.gif)
+
+## Insights
+
+- It has functionality to upload post , comment on post , see who else are using app.
+- Firebase database is used to store user and posts data.
+- Firebase storage is used to store post images.
+- Firebase authentication is used for user authentication.
+- Complete project is based on React.
+- Material-UI is used for some UI stuff.
+
+## Built With
+
+- React , React Context Api's
+- Firebase
+- Material-UI
+
+## Author
+
+**Kartik Attri**
+
+- [Profile](https://github.com/kartik-05 "Kartik Attri")
+
+## 🤝 Support
+
+Contributions, issues, and feature requests are welcome!
+
+Give a ⭐️ if you like this project!
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +102,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## 🤝 Support
+
+Contributions, issues, and feature requests are welcome!
+
+Give a ⭐️ if you like this project!
+
