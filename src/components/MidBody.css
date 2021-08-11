@@ -1,0 +1,36 @@
+.mid-body-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 0.45;
+    height: 90vh;
+    overflow: scroll;
+}
+
+.mid-body-header{
+    display: flex;
+    align-items: center;
+    width:30vw;
+    border-bottom: 2px solid var(--grey);
+    background: #1A1A1A;
+    position: sticky;
+    top: 0;
+}
+
+
+.feeds-info{
+    margin-top: 10px;
+    padding: 0px 20px;
+    width: 28vw;
+    font-weight: 700;
+    color: var(--grey);
+}
+
+.feeds{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 28vw;
+    margin: 20px;
+}

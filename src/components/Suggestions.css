@@ -1,0 +1,50 @@
+.suggestions-container{
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    position: relative;
+    cursor: pointer;
+}
+
+.suggestions-user-img , .suggestions-user-name {
+    margin-right: 15px;
+    color: white;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.suggestions-user-img{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    border: 3px solid var(--red);
+    padding: 3px;
+}
+
+.suggestions-user-img > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.suggestions-follow > button{
+    padding: 8px 25px;
+    font-size: 0.8rem;
+    color: white;
+    border-radius: 50px;
+    background: var(--cyan);
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s all ease;
+
+}
+
+.suggestions-follow > button:hover{
+    background: none;
+    border: 1px solid var(--cyan);
+}

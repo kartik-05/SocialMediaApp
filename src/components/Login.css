@@ -1,0 +1,98 @@
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right top ,#9980ff ,#cdc1ff);
+    height: 100vh;
+}
+
+.login-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 50%;
+}
+
+.login-username,.login-email, .login-password{
+    margin-top: 20px;
+}
+
+.login-text > form > h5{
+    font-weight: 400;
+    color: rgb(87, 86, 86);
+}
+
+
+.login-input{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login-input > div{
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.login-input > input{
+    font-size: 1rem;
+    padding: 5px 20px;
+    outline: none;
+    border-radius: 50px;
+    border: 2px solid blueviolet;
+}
+
+.login-text > form > button{
+    color: white;
+    margin-top: 30px;
+    background: blueviolet;
+    font-size: 1.1rem;
+    padding: 8px 35px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.login-text > form > button:hover{
+    background: none;
+    border: 2px solid blueviolet;
+}
+
+.sign-in-check{
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.sign-in-check > button{
+    border: none;
+    background: none;
+    color: blueviolet;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.sign-in-check > button:hover{
+    color: white;
+}
+
+
+
+.login-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 50%;
+}
+
+.login-image > img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+

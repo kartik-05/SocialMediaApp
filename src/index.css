@@ -1,0 +1,14 @@
+:root{
+  --grey : #686972;
+  --red: #EC653F;
+  --blue: #3D87DF;
+  --cyan: #31C0D2;
+  --heart: #EC3B3B;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}

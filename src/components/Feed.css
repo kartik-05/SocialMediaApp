@@ -1,0 +1,140 @@
+.feed-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.feed-header{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;   
+    width: 28vw; 
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.feed-user-image{
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    margin-right: 10px;
+    border-left: 2px solid var(--red);
+    border-top: 2px solid var(--cyan);
+    border-right: 2px solid var(--blue);
+    border-bottom: 2px solid greenyellow;
+
+}
+
+.feed-user-image > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+
+.feed-image{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 3px 20px black;
+}
+
+.feed-image > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.feed-caption{
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 700;
+    width: 27vw;
+    margin-top: 5px;
+}
+
+
+.feed-like-and-comments{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 28vw;
+    margin-top: 10px;
+}
+
+.feed-heart , .feed-comment , .feed-share{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 500;
+    background: #232938;
+    padding: 3px 23px;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+.feed-heart > .MuiSvgIcon-root{
+    fill: var(--heart);
+    margin-right: 10px;
+}
+.feed-comment > .MuiSvgIcon-root{
+    fill:var(--cyan);    
+    margin-right: 10px;
+}
+
+.feed-share > .MuiSvgIcon-root{
+    fill: var(--blue);
+    margin-right: 10px;
+}
+
+.feed-comment-input{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    width: 28vw;
+}
+
+.feed-comment-input > input{
+    background: none;
+    border: 2px solid #232938;
+    outline: none;
+    border-radius: 50px;
+    padding: 2px 10px;
+    flex: 1;
+    color: white;
+    box-shadow: 0px 5px 50px black;
+}
+
+.feed-comment-input > button{
+    background: none;
+    border: none;    
+    outline: none;
+    color: black;
+}
+
+.feed-comments{
+    margin-top: 10px;
+    color: rgb(219, 219, 219);
+    font-size: 0.7rem;
+    width: 28vw;
+}
+
+.feed-comments > b{
+    font-size: 0.8rem;
+    margin-right: 5px;
+}
